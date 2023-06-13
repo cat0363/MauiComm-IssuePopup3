@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiComm_IssuePopup3.MainPage">
+
+    <Grid RowDefinitions="44,*">
+        <Button x:Name="btnShowPopup" Grid.Row="0" Text="Show Popup" BackgroundColor="Blue" TextColor="White" Clicked="btnShowPopup_Clicked" />
+    </Grid>
+
+</ContentPage>
